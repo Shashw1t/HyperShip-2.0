@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,300&family=Roboto:wght@500&display=swap');
+
+:root {
+    --main-bg-color: #2874f0;
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 100;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 0 0.5vw;
+}
+
+.logo:hover{
+    cursor: pointer;
+    opacity: 0.88;
+}
+
+.logo img{
+    width: 8em;
+    padding: 0 1.2vw 0 0;
+}
+
+nav ul{
+    height: 7vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0vw 1.5vw;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(229, 255, 0);
+    text-decoration: none;
+    zoom: 101.5%;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 23vw;
+    height: 3.2vh;
+    border-radius: 2px;
+    margin: 0vh 0.3vw 0 3.5vw;
+    padding: 0vh 0.4vw;
+    border: none;
+}
+
+.container{
+     min-height: 86.5vh;                      /* 100 - 7 - 6.5 */
+}
+
+.slider{
+    margin: 1vh 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.slider a img{
+    width: 90vw;
+    height: 56vh;
+    opacity: 0.98;
+}
+
+.slider a img:hover{
+    box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.075);
+    opacity: 1;
+    height: 56.2vh;
+}
+
+.card{
+    max-width: 92vw;
+    margin: auto;
+    font-family: 'Lato', sans-serif;
+}
+
+.cards{
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 2.4vw;
+}
+
+.card-item img{
+    margin: auto;
+}
+
+.card-item:hover{
+    zoom: 100.4%;
+    cursor: pointer;
+}
+
+.card a{
+    text-decoration: none;
+}
+
+footer{
+    height: 15vh;
+    background-color: var(--main-bg-color);
+    color: rgb(255, 255, 255);
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 100%;
+}

@@ -1,0 +1,48 @@
+@media screen and (max-width:600px){
+
+    nav{
+        flex-direction: column;
+    }
+
+    .logo{
+        justify-content: center;
+        margin: 1vh 0;
+    }
+
+    nav ul{
+        justify-content: center;
+    }
+
+    nav ul li{
+        padding: 0 5.5vw;
+    }
+
+    .search{
+        justify-content: center;
+        margin-bottom: 0 0.6vh;
+    }
+
+    .search input {
+        width: 23vw;
+        height: 2.4vh;
+        margin: 0vh 0.9vw 0.8vh 0;
+        padding: 0vh 0.4vw;
+    }
+
+    .search button a{
+        margin-bottom: 0.8vh;
+        height: 2.8vh;
+        padding: 0.05vh 0.1vw;
+    }
+
+    .slider a img{
+        height: 30vh;
+        opacity: 0.98;
+    }
+    
+    .slider a img:hover{
+        box-shadow: 5px 5px 8px 8px rgba(0, 0, 0, 0.075);
+        opacity: 1;
+        height: 30.2vh;
+    }
+}
