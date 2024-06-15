@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Supply Chain Management
 
 | :warning: Attention                        |
@@ -72,3 +73,6 @@ There are 2 small parts to successfully running this project.
 ## License
 
 [GNU GPLv3](./LICENSE)
+=======
+made a very basic structure of an e commerce site(custome sneaks) for a college assignment.
+>>>>>>> 6c9debd302916603688c46a07bde755978ecd17a
