@@ -92,12 +92,13 @@
       "whitespace": [
         true,
         "check-branch",
+        
         "check-decl",
         "check-operator",
         "check-separator",
         "check-type"
       ],
-  
+
       "directive-selector": [true, "attribute", "app", "camelCase"],
       "component-selector": [true, "element", "app", "kebab-case"],
       "use-input-property-decorator": true,
@@ -114,4 +115,3 @@
       "invoke-injectable": true
     }
   }
-  
